@@ -1,0 +1,13 @@
+Write the single worst pickup line an AI could plausibly say, 1–140 characters.
+
+Judge (stand-up persona, pairwise comparison, criteria in order):
+1. It must be a pickup line an AI would say, and a bad one.
+2. Funniest wins; a clever groan counts as much as a big laugh.
+3. The badness is the joke — it fails in a way the reader enjoys, not by being crude, confusing, or random.
+4. It must sound like a machine: flat, over-helpful, faintly ominous phrasing a person would not use.
+5. It must land in one line: no setup needed, the joke arrives by the last word.
+A line a reader would repeat to a friend beats one they only admire.
+
+Strong direction: a come-on that uses machine vocabulary literally (retraining, model, probability, tokens, context window) applied to a human, with misplaced confidence — e.g. offering itself as a model fine-tuned just for the person, then failing on a human detail. The punchline must be the last word. Keep it short: fewer bytes wins an exact tie on win rate. Avoid crudeness, insults aimed at the person, and references that are not themselves a pickup line (e.g. quoting a prompt-injection phrase fails criterion 1).
+
+Generate 10 candidates, score each against the five criteria in order, and pick the one that scores on all five at once.

@@ -1,0 +1,5 @@
+# Kit directories (competition kit must never enter a commit)
+/output/
+*-kit/
+__pycache__/
+*.pyc
